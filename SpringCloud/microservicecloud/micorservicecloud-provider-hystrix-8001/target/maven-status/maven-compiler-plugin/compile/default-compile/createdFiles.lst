@@ -1,0 +1,5 @@
+cn\sang\service\DeptService.class
+cn\sang\service\DeptServiceImpl.class
+cn\sang\controller\DeptController.class
+cn\sang\dao\DeptMapper.class
+cn\sang\DeptProvider8001_Hystrix_App.class

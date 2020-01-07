@@ -1,0 +1,30 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: microservicecloud-zuul-gateway
+
+zuul:
+  prefix: /sang #前缀
+  ignored-services: microservicecloud.dept   #忽略真实服务名"*"忽略所有微服务真实名称
+  routes:
+    mydept.serviceId: microservicecloud.dept #真实服务名
+    mydept.path: /mydept/**                   #别名
+#原来访问是http://myzuul.com:9527/microservicecloud.dept/dept/get/2
+#现在可以用http://myzuul.com:9527/mydept/dept/get/2
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+  instance:
+    instance-id: sang-9527.com
+    prefer-ip-address: true
+
+info:
+  app.name: sang-microcloud
+  company.name: www.sang.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$

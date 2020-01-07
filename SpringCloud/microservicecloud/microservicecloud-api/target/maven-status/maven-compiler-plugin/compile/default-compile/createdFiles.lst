@@ -1,0 +1,4 @@
+cn\sang\service\DeptClientService.class
+cn\sang\pojo\Dept.class
+cn\sang\service\DeptClientServiceFallbackFactory.class
+cn\sang\service\DeptClientServiceFallbackFactory$1.class

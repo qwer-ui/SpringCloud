@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/micorservicecloud-config-dept-client-8001" />
+    <file type="web" url="file://$PROJECT_DIR$/micorservicecloud-provider-hystrix-8001" />
+    <file type="web" url="file://$PROJECT_DIR$/microserviceclod-consumer-dept-80" />
+    <file type="web" url="file://$PROJECT_DIR$/microservicecloud-config-3344" />
+    <file type="web" url="file://$PROJECT_DIR$/microservicecloud-config-client-3355" />
+    <file type="web" url="file://$PROJECT_DIR$/microservicecloud-consumer-dept-80" />
+    <file type="web" url="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign" />
+    <file type="web" url="file://$PROJECT_DIR$/microservicecloud-eureka-7001" />
+    <file type="web" url="file://$PROJECT_DIR$/microservicecloud-eureka-7002" />
+    <file type="web" url="file://$PROJECT_DIR$/microservicecloud-eureka-7003" />
+    <file type="web" url="file://$PROJECT_DIR$/microservicecloud-provider-dept8002" />
+    <file type="web" url="file://$PROJECT_DIR$/microservicecloud-provider-dept8003" />
+    <file type="web" url="file://$PROJECT_DIR$/microservicecoud-consumer-hystrix-dashboard" />
+    <file type="web" url="file://$PROJECT_DIR$/micrsoervicecloud-config-eureka-client-7001" />
+    <file type="web" url="file://$PROJECT_DIR$/mincroservicecloud-consumer-dept-80" />
+    <file type="web" url="file://$PROJECT_DIR$/Modulemicroservicecloud-zuul-gateway-9527" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-dept-80/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/aa/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-dept-80/pom.xml" />
+        <option value="$PROJECT_DIR$/mincroservicecloud-consumer-dept-80/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
